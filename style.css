@@ -52,10 +52,10 @@ img.image.icon{
 
 footer{
 	margin-top: 20px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(255,255,255,0.2);
 	text-align:center;
 	padding: 15px 0px;
-	color: white;
+	color: #555;
 	font-size: 1.2em;
 }
 
