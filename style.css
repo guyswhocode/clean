@@ -1,0 +1,64 @@
+body {
+	background: #efefef;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #ffffff, #aaaaaa);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #ffffff, #aaaaaa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-attachment: fixed;
+}
+
+.hidden{
+	display: none;
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	color: #3399DD;
+}
+
+img.image.icon{
+	width: 20px;
+	height: auto;
+}
+
+#services .card{
+	border-radius: 0px;
+	box-shadow: none;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 10px 10px -10px #444;
+	box-shadow: 0px 10px 10px -10px #444;
+	transition: 0.5s box-shadow ease-in-out;
+}
+
+#services .card .content{
+	text-align: center;
+	padding: 10px 4px 10px 4px;
+}
+
+#services .card.unsecure{
+	-webkit-box-shadow: 0px 10px 10px -10px #e74c3c;
+	box-shadow: 0px 10px 10px -10px #e74c3c;
+}
+
+#services .card.secure{
+	-webkit-box-shadow: 0px 10px 10px -10px #2ecc71;
+	box-shadow: 0px 10px 10px -10px #2ecc71;
+}
+
+#services .image{
+	border-radius: 0px !important;
+	background-color: #fff;
+}
+
+footer{
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0.3);
+	text-align:center;
+	padding: 15px 0px;
+	color: white;
+	font-size: 1em;
+}
+
+footer .logo{
+color: #33bb77;
+}
